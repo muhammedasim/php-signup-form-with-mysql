@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#RegisterForm{
+	background:none;
+	width: 350px;
+	margin: 0 auto;	
+	position: relative;
+	top:50px;
+	padding: 50px;
+	background-color:#ECECEC;
+	border-radius: 4px;
+}
+
+
+#RegisterForm h2{
+	text-align: center;
+	font-size: 27px;
+	text-shadow: 0px 1px 1px #e4ebe9;
+	color: #000;
+	margin: 0px;
+	margin-bottom: 15px;
+	margin-top: 35px;
+}
+
+
+#RegisterForm label{
+	margin-left: 45px;
+	padding-bottom: 10px;
+	display: block;
+	
+}
+
+ #RegisterForm textarea{
+	background-color: white;
+	background-image: none;
+	border: 1px solid #cccccc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #666666;
+	
+	font-size: 14px;
+	padding: 6px 12px;
+	width: 500px;
+	margin-bottom: 10px;
+}
+input[type="text"]{
+	display: block;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #cccccc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #666666;
+	
+	font-size: 14px;
+	padding: 6px 12px;
+	width: 320px;
+	margin-bottom: 10px;
+}
+
+input[type="password"]{
+	display: block;
+	background-color: white;
+	background-image: none;
+	border: 1px solid #cccccc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #666666;
+	
+	font-size: 14px;
+	padding: 6px 12px;
+	width: 320px;
+	margin-bottom: 10px;
+}
+
+#RegisterForm input[type=radio]{
+	
+}
+
+#RegisterForm input[type=submit]{
+	background-color:#2b68a8;
+	color:#fff;
+	width: 100%;
+	vertical-align:central;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+#RegisterForm input[type=submit]:hover{
+	background:#16508e;
+	cursor:pointer;
+}
